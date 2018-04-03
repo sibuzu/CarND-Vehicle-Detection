@@ -238,7 +238,7 @@ A heat-map is built from these detections by CNN classifier.  The results showed
 
 ### 5. Compare the performances of the approaches HOG, CNN and YOLO.
 
-We also appplied [YOLOv3](https://pjreddie.com/darknet/yolo/) to detect cars and their positions.  The pretrained weights trained by COCO dataset were used.  A little codes were modified to only detect car class instead of detecting 10 classes.  The following showed the example results of HOG, CNN and YOLO.  Obviously, YOLO performed better then CNN(+Search Windows+Heat Map) and HOG(+Search Windows+Heat Map).  CNN was also better than HOG approach.
+We also appplied [YOLOv3](https://pjreddie.com/darknet/yolo/) to detect cars and their positions.  The pretrained weights trained by COCO dataset were used.  A few codes were modified to detect car class only instead of detecting 10 classes.  The following showed the example results of HOG, CNN and YOLO.  Obviously, YOLO performed better then CNN(+Search Windows+Heat Map) and HOG(+Search Windows+Heat Map).  CNN was also better than HOG approach.
 
 <table border="1">
 <tr>
@@ -288,7 +288,7 @@ Three videos were made by the three different approaches, which HOG+SearchWindow
 
 * Video for HOG+SearchWindows+HeatMap is [here](https://youtu.be/H0nqXUTUR7A).
 * Video for CNN+SearchWindows+HeatMap is [here](https://youtu.be/4trAJrGXDgI).
-* Video for YOLO is [here](https://youtu.be/gwbX6sd2neE).
+* Video for YOLO is [here](https://youtu.be/WLVeruuSAlQ).
 
 ---
 
